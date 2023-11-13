@@ -7,10 +7,10 @@ list_1 = [-5, 9, 0, 3, -1, -2, 1, 4, -2, 10, 2, 0, -9, 8, 10, -9, 0, -5, -5, 7]
 min_number = 5
 max_number = 15
 
-result_indices = []
+result = []
 for i in range(len(list_1)):
     if min_number <= list_1[i] <= max_number:
-        result_indices.append(i)
+        result.append(i)
 
-for index in result_indices:
+for index in result:
     print(index)
